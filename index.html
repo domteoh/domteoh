@@ -33,8 +33,6 @@ video {
 	width: 100%;
 	height: 100%;
 }
-
-
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
     background-attachment: fixed;
@@ -42,84 +40,68 @@ video {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url('https://c7.staticflickr.com/1/648/31708284606_dc5f20f3e9_k.jpg');
     min-height: 100%;
 	opacity: 0.85;
 }
-
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url("https://c3.staticflickr.com/1/581/31599079162_f653a974a3_k.jpg");
     min-height: 100%;
 	opacity: 1;
 }
-
 /* Third image (Contact) */
 .bgimg-3 {
     background-image: url("https://c1.staticflickr.com/1/574/31604089152_9dc58d971a_k.jpg");
     min-height: 100%;
 	opacity: 1;
 }
-
 /* Fourth image (Contact) */
 .bgimg-4 {
     background-image: url("https://c4.staticflickr.com/1/720/31746293475_646d626517_k.jpg");
     min-height: 100%;
 	opacity: 1;
 }
-
 /* Fifth image (Contact) */
 .bgimg-5 {
     background-image: url("https://c1.staticflickr.com/1/654/30904379824_2fd293ded6_k.jpg");
     min-height: 100%;
 	opacity: 1;
 }
-
 /* Sixth image (Contact) */
 .bgimg-6 {
     background-image: url("https://c3.staticflickr.com/1/323/31598912882_767194c5d1_k.jpg");
     min-width: 100%;
 	opacity: 1;
 }
-
 /* Seventh image (Contact) */
 .bgimg-7 {
     background-image: url("https://c7.staticflickr.com/1/488/31603167942_06070b6225_k.jpg");
     min-height: 100%;
 	opacity: 1;
 }
-
-
 /* Eighth image (Contact) */
 .bgimg-8 {
     background-image: url("https://c4.staticflickr.com/1/412/31732869811_7fc766cb63_k.jpg");
     min-height: 100%;
 	opacity: 1;
 }
-
-
 /* Ninth image (Contact) */
 .bgimg-9 {
     background-image: url("https://c7.staticflickr.com/6/5566/30903924334_0e8252f49e_k.jpg");
     min-height: 100%;
 	opacity: 1;
 }
-
-
 /* Tenth image (Contact) */
 .bgimg-10 {
     background-image: url("https://c4.staticflickr.com/1/563/30936307363_c813a84885_k.jpg");
     min-height: 100%;
 	opacity: 1;
 }
-
-
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
-
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 600px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
@@ -127,8 +109,6 @@ video {
 	background-size: cover;
     }
 }
-
-
 </style>
 
 </head>
@@ -337,24 +317,6 @@ video {
 </div>
 
 
-<!-- Container (EPIC) -->
-<div class="w3-hide-small">
-<div class="w3-container">
-  <h3 class="w3-center">Corporate</h3>
-  <p class="w3-center"><em>EPIC</em>
-  <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/prdN_NrnGmY" frameborder="0" allowfullscreen></iframe>
-  <br>A company profile created for the Malaysian-based social enterprise, EPIC.<br>Have a <a href="https://epichome.org/" title=“EPIC target="_blank">look</a> at how they’re enabling and empowering Malaysian society.<br><br></p>
-</div>
-</div>
-
-<!-- Image 3 -->
-<div class="bgimg-10 w3-display-container w3-hide-small w3-hide-medium w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-light-grey w3-wide"></span>
-  </div>
-</div>
-
-
 <!-- Container (MJP) -->
 <div class="w3-hide-small">
 <div class="w3-container">
@@ -366,8 +328,8 @@ video {
 </div>
 
 
-<!-- Image 7 -->
-<div class="bgimg-5 w3-display-container w3-hide-small w3-hide-medium w3-opacity-min">
+<!-- Image 3 -->
+<div class="bgimg-10 w3-display-container w3-hide-small w3-hide-medium w3-opacity-min">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-light-grey w3-wide"></span>
   </div>
@@ -394,7 +356,6 @@ video {
 
 
 <script>
-
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -402,7 +363,6 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
@@ -413,7 +373,6 @@ function myFunction() {
         navbar.className = navbar.className.replace(" w3-animate-top", "");
     }
 }
-
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
     var x = document.getElementById("navDemo");
@@ -423,7 +382,6 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-
 </script>
 
 </body>
