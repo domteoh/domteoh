@@ -1,388 +1,406 @@
 <!DOCTYPE html>
-<html>
-<title>dominique teoh</title>
-<head>
-<link rel="shortcut icon" href="https://rawgit.com/domteoh/domteoh/master/favicon.png" type="image/png" />
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href=https://rawgit.com/domteoh/domteoh/master/css/w3.css>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- ==============================
+    Project:        Metronic "Aironepage" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>dominique teoh</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
 
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-    height: 100%;
-    color: grey;
-    line-height: 1.8;
-}
-video {
-  width: 100%    !important;
-  height: auto   !important;
-}
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url('https://c7.staticflickr.com/1/648/31708284606_dc5f20f3e9_k.jpg');
-    min-height: 100%;
-	opacity: 0.85;
-}
-/* Second image (Portfolio) */
-.bgimg-2 {
-    background-image: url("https://c3.staticflickr.com/1/581/31599079162_f653a974a3_k.jpg");
-    min-height: 100%;
-	opacity: 1;
-}
-/* Third image (Contact) */
-.bgimg-3 {
-    background-image: url("https://c1.staticflickr.com/1/574/31604089152_9dc58d971a_k.jpg");
-    min-height: 100%;
-	opacity: 1;
-}
-/* Fourth image (Contact) */
-.bgimg-4 {
-    background-image: url("https://c4.staticflickr.com/1/720/31746293475_646d626517_k.jpg");
-    min-height: 100%;
-	opacity: 1;
-}
-/* Fifth image (Contact) */
-.bgimg-5 {
-    background-image: url("https://c1.staticflickr.com/1/654/30904379824_2fd293ded6_k.jpg");
-    min-height: 100%;
-	opacity: 1;
-}
-/* Sixth image (Contact) */
-.bgimg-6 {
-    background-image: url("https://c3.staticflickr.com/1/323/31598912882_767194c5d1_k.jpg");
-    min-width: 100%;
-	opacity: 1;
-}
-/* Seventh image (Contact) */
-.bgimg-7 {
-    background-image: url("https://c7.staticflickr.com/1/488/31603167942_06070b6225_k.jpg");
-    min-height: 100%;
-	opacity: 1;
-}
-/* Eighth image (Contact) */
-.bgimg-8 {
-    background-image: url("https://c4.staticflickr.com/1/412/31732869811_7fc766cb63_k.jpg");
-    min-height: 100%;
-	opacity: 1;
-}
-/* Ninth image (Contact) */
-.bgimg-9 {
-    background-image: url("https://c7.staticflickr.com/6/5566/30903924334_0e8252f49e_k.jpg");
-    min-height: 100%;
-	opacity: 1;
-}
-/* Tenth image (Contact) */
-.bgimg-10 {
-    background-image: url("https://c4.staticflickr.com/1/563/30936307363_c813a84885_k.jpg");
-    min-height: 100%;
-	opacity: 1;
-}
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 600px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
-        background-attachment: scroll;
-	background-size: cover;
-    }
-}
-</style>
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-</head>
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
 
 
-<body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <ul class="w3-navbar" id="myNavbar">
-    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-      <a class="w3-hover-black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-        <i class="fa fa-bars"></i>
-      </a>
-    </li>
-    <li class="w3-left-align"><a href="#home">HOME</a></li>
-    <li class="w3-hide-small"><a href="#photography"><i class=""></i> PHOTOGRAPHY</a></li>
-    <li class="w3-hide-small"><a href="#videography"><i class=""></i> VIDEOGRAPHY</a></li>
-    <li class="w3-hide-small"><a href="#contact"><i class=""></i> CONTACT</a></li>
-      </a>
-    </li>
-  </ul>
+        <!-- Work -->
+        <div id="work">
+            <div class="content-md container">
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
-    <ul class="w3-navbar w3-left-align w3-white">
-      <li><a href="#photography" onclick="toggleFunction()">PHOTOGRAPHY</a></li>
-      <li><a href="#videography" onclick="toggleFunction()">VIDEOGRAPHY</a></li>
-      <li><a href="#contact" onclick="toggleFunction()">CONTACT</a></li>
-    </ul>
-  </div>
-</div>
+        <!--========== HEADER ==========-->
 
-<!-- Leaves -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-hide-small w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">dominique <span class="w3-hide-small">teoh</span>
-  </div>
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-hide-medium w3-hide-large w3-black w3-xxlarge w3-wide w3-animate-opacity">please<br>rotate<br>screen</span>
-  </div>
-</div>
+            <nav class="navbar" role="navigation">
 
+                        <!-- Logo -->
+                        <div class="logo">
+                            <p class="fweight-600"><br><br>dominique teoh</p>
+                        </div>
+                        <!-- End Logo -->
 
-<!-- Marie’s Tracks -->
-<div class="w3-hide-small w3-hide-medium">
-      <img src="https://c1.staticflickr.com/1/480/30904317104_9bdf5216e8_k.jpg" style="width:100%" alt=“”>
-</div>
+        <!--========== END HEADER ==========-->
 
+                <!-- Masonry Grid -->
+                <div class="masonry-grid row row-space-2">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
 
-<!-- Image 11 -->
-<div class="bgimg-4 w3-display-container w3-opacity-min w3-hide-small" id="photography">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-light-grey w3-wide">photography</span>
-  </div>
-</div>
+			<!-- Videography -->
+			<h><br>Videography<br><br></h>
+			
+
+                        <!-- Out of the Shadows -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>Out of the Shadows</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Out of the Shadows</h3>
+						<div class="video-responsive">
+						<iframe src="https://player.vimeo.com/video/230767787?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            					</div>
+                                    </div>
+
+                                                <p class="blocktext" align="justify"><a href="https://outoftheshadowsdoc.wordpress.com/" target="_blank"><i>Out of the Shadows</i></a> is a short documentary about <a href="https://www.qimusica.com/" target="_blank"><i>Quinto Imperio</i></a>, a Cumbia band from Chicago’s Back of the Yards neighbourhood. It is a story of immigrants who are undocumented, unapologetic, and unafraid to fight for their future and for the future of youth from a community that is often misunderstood.</p>
+
+                                                <p class="blocktext">Co-creators: Amanda Hermans, Caroline Olsen</p>
+
+                                                <p class="blocktext">|Nominated for a student achievement award by the<br>&nbsp;&nbsp;&nbsp;&nbsp;National Academy of Television Arts and Sciences<br>|Featured on Univision’s <i>Despierta Chicago</i><br>|Available for school, university, and community screenings</p>
 
 
-<!-- Image 6 -->
-<div class="w3-hide-small w3-hide-medium">
-      <img src="https://c5.staticflickr.com/1/459/30908363644_43cde362cf_k.jpg" style="width:100%" alt="">
-</div>
+                                                <ul class="list-inline work-popup-tag" align="center">
+<br>
+                                                    <li class="work-popup-tag-item">|    directing, producing, videography, editing    |<br>Canon DSLR cameras, Panasonic GH4, Adobe Premiere Pro</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                        </div>
+                        <!-- End Out of the Shadows -->
+
+<!-- MJP -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>The Medill Justice Project</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">The Medill Justice Project</h3>
+						<div class="video-responsive">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/tBThi8WoceQ?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            					</div>
+                                    </div>
+                                                <p class="blocktext" align="justify">Selected graphics done for “<a href="https://vimeo.com/196456422" title="Sword of Damocles" target="_blank">The Sword of Damocles</a>,” the Medill Justice Project’s  documentary on Tommy Zeigler - a man who spent the past four decades on deathrow over a potentially wrongful conviction.<br>Find out more about the good work that the Medill Justice Project does <a href="http://www.medilljusticeproject.org/" title="Medill Justice Project" target="_blank">here</a>.</p>
 
 
-<!-- Joanna -->
-<div class="bgimg-7 w3-display-container w3-hide-small w3-opacity-min">
-  <div class="w3-display-right w3-text-white w3-padding-large">
-  <h3>
-	joannaxko.com</h3>
-  	I’ve been fortunate enough to photograph<br>
-	Joanna “tryna look cute on a budget.”<br>
-	Have a look at her <a href="http://joannaxko.com" title="joannaxko.com" target="_blank">fashion blog</a>.</p>
-	</div>	
-</div>
-</div>
+                                                <ul class="list-inline work-popup-tag" align="center">
+<br>
+                                                    <li class="work-popup-tag-item">|    motion graphics, editing    |<br>Adobe After Effects, Adobe Premiere Pro</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                        </div>
+                        <!-- End MJP -->
+
+<!-- Wann -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>Wann</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Wann</h3>
+						<div class="video-responsive">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Yc2c3-mKaKI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            					</div>
+                                    </div>
+                                                <p class="blocktext" align="justify">Skate video featuring Wann Senn, co-founder of Continuity Skateboards and longtime friend.</p>
 
 
-<!-- An Alley in Chicago -->
-<div class="w3-hide-small w3-hide-medium">
-      <img src="https://c8.staticflickr.com/1/526/31746227335_963dbb7268_k.jpg" style="width:100%">
-</div>
+                                                <ul class="list-inline work-popup-tag" align="center">
+<br>
+                                                    <li class="work-popup-tag-item">|    directing, videography, editing, colour correction    |<br>Panasonic GH4, Adobe Premiere Pro, DaVinci Resolve</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
 
-
-<!-- Frank Lowy -->
-<div class="bgimg-3 w3-display-container w3-hide-small w3-opacity-min">
-  <div class="w3-display-left w3-text-lightgrey w3-padding-large">
-  <h3 class=“color:white;”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Photo of Frank Lowy</h3>
-  	<p class=“color:white;”>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exhibited at the United Nations Headquarters in New York as part of the exhibition,<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“When You Listen to a Witness, You Become a Witness” (2014).<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The exhibition was subsequently published as the book,<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"<a href="https://www.amazon.com/Witness-Passing-Holocaust-Memory-Generations/dp/1927583667" title="Witness" target="_blank">Witness: Passing the Torch of Holocaust Memory to New Generations</a>."</p>
-  </div>
-</div>
-
-
-<!-- Container (Gallery) -->
-<div class="w3-hide-small">
-<div class="w3-content w3-container w3-padding-64 w3-hide-small">
-  
-<div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="https://c3.staticflickr.com/1/581/31599079162_f653a974a3_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Berlin, 2016">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c4.staticflickr.com/1/673/30936111723_151d96a42b_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Baie des Trépassés, 2014">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c5.staticflickr.com/1/657/31598945652_61f4c1e807_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Barmelweid, 2015">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c1.staticflickr.com/1/574/31604089152_9dc58d971a_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Frank Lowy, Birkenau, 2013">
-    </div>
-</div>
-
-<div class="w3-row-padding w3-center w3-modal">
-    <div class="w3-col m3">
-      <img src="https://c5.staticflickr.com/1/730/30904188164_fccc124ca0_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Trieste, 2013">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c4.staticflickr.com/1/720/31746293475_646d626517_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Barmelweid, 2014">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c3.staticflickr.com/1/323/31598912882_767194c5d1_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Prague Zoo, 2014">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c7.staticflickr.com/6/5566/30903924334_0e8252f49e_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Chicago, 2014">
-    </div>
-</div>
-
-<div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="https://farm1.staticflickr.com/259/32001978355_6ae6619922_b.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Berlin, 2016">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://farm1.staticflickr.com/552/31964642306_293a57dd67_b.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Chicago, 2014">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://farm1.staticflickr.com/301/31964645016_db7125727c_b.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Schiers, 2016">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://farm1.staticflickr.com/676/31885039961_b3d7dbe88d_b.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bohinj, 2014">
-    </div>
-</div>
-
-<div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="https://c1.staticflickr.com/1/705/31372954480_f6d5b9d462_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Firdaus Rahman, Kuala Lumpur, 2013">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c8.staticflickr.com/1/526/31746227335_963dbb7268_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Chicago, 2014">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c1.staticflickr.com/1/654/30904379824_2fd293ded6_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bled, 2014">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c4.staticflickr.com/1/563/30936307363_c813a84885_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lenzburg, 2014">
-    </div>
-</div>
-
-<div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="https://c5.staticflickr.com/1/459/30908363644_43cde362cf_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Joanna Ko, Evanston, 2016">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c2.staticflickr.com/1/557/31746343865_8ba0b0caa2_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Chicago, 2016">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c1.staticflickr.com/1/480/30904317104_9bdf5216e8_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Somewhere near the Swiss-Italian border, 2015">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="https://c3.staticflickr.com/1/452/30908362674_c16899cf7b_k.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Joanna Ko, Evanston, 2016">
-    </div>
-</div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-</div>
-
-<!-- Image 3 -->
-<div class="bgimg-2 w3-display-container w3-hide-small w3-opacity-min" id="videography">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-light-grey w3-wide">videography</span>
-  </div>
-</div>
-
-
-<!-- Container (MJP) -->
-<div class="w3-hide-small">
-<div class="w3-container">
-  <h3 class="w3-center">Graphics</h3>
-  <p class="w3-center"><em>“The Sword of Damocles” (Medill Justice Project)</em>
-  <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/tBThi8WoceQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<iframe width="560" height="315" src="https://www.youtube.com/embed/4SVtVCZOFaM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-  <br>Examples of graphics done for “<a href="https://vimeo.com/196456422" title="Sword of Damocles" target="_blank">The Sword of Damocles</a>” - the Medill Justice Project’s  documentary on Tommy Zeigler.<br>Find out more about the good work that the Medill Justice Project does in the U.S. criminal justice system <a href="http://www.medilljusticeproject.org/" title="Medill Justice Project" target="_blank">here</a>.<br><br></p>
-</div>
-</div>
-
-
-<!-- Image 3 -->
-<div class="bgimg-10 w3-display-container w3-hide-small w3-hide-medium w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-light-grey w3-wide"></span>
-  </div>
-</div>
-
+                        </div>
+                        <!-- End Wann -->
 
 <!-- Gonel -->
-<div class="w3-hide-small">
-<div class="w3-container">
-<div class="videoWrapper">
-    <iframe src="https://player.vimeo.com/video/139745561" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/139745561">Gonel</a> from <a href="https://vimeo.com/user23536477"></p>
-</div>
-</div>
-</div>
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>Gonel</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Gonel</h3>
+						<div class="video-responsive">
+						<iframe src="https://player.vimeo.com/video/139745561?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            					</div>
+                                    </div>
 
-<!-- Image 7 -->
-<div class="bgimg-8 w3-display-container w3-hide-small w3-opacity-min" id="contact">
-  <div class="w3-display-middle">
-    <span class="w3-medium w3-text-light-grey">based in Chicago&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domteoh@gmail.com</span>
-  </div>
-  <a href="#home" class="w3-display-bottommiddle w3-btn w3-padding w3-light-grey w3-hover-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-</div>
+                                                <p class="blocktext" align="center">Animation combining hand-drawn images with video.</p>
 
 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-navbar" + " w3-animate-top";
-    } else {
-        navbar.className = navbar.className.replace(" w3-animate-top", "");
-    }
-}
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
+                                                <ul class="list-inline work-popup-tag" align="center">
+<br>
+                                                    <li class="work-popup-tag-item">|    animation, editing    |<br>Adobe Illustrator, Adobe Premiere Pro</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
 
-</body>
+                        </div>
+                        <!-- End Gonel -->        
+
+
+
+
+			<!-- Photography -->
+			<h><br>Photography<br><br></h>
+			
+
+                        <!-- Frank Lowy Portrait -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>portrait of Frank Lowy</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">portrait of Frank Lowy</h3>
+                                    </div>
+                                    <div class="row">
+						<p align="center"><img class="fit-width" src="img/Frank Lowy/04.jpg" alt="franklowy"><br>
+                                                <p class="blocktext" align="center"><br>Portrait of philanthropist Frank Lowy at the 2013 March of the Living in Poland.</p>
+
+<p class="blocktext" align="justify">Exhibited at the United Nations Headquarters in New York as part of the exhibition, “When You Listen to a Witness, You Become a Witness” (2014). The exhibition was subsequently published as the book, “<a href="https://www.amazon.com/Witness-Passing-Holocaust-Memory-Generations/dp/1927583667" title="Witness" target="_blank">Witness: Passing the Torch of Holocaust Memory to New Generations</a>."</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portrait of Frank Lowy -->
+
+<!-- joannaxko.com -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>joannaxko.com</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">joannaxko.com</h3>
+                                    </div>
+                                    <div class="row">
+
+		<p class="blocktext" align="center">Fashion photography for the blog <a href="http://joannaxko.com" title="joannaxko.com" target="_blank">joannaxko.com</a>.</p>
+
+                                                <ul class="list-inline work-popup-tag" align="center">
+                                                    <li class="work-popup-tag-item">|    35mm analog photography, digital photography    |<br>Minolta X-700, Canon 600D, Panasonic GH4</a></li>
+                                                </ul>		
+
+						<br><p align="center"><img class="fit-height" src="img/Joannaxko.com/1.jpg" alt="jxko">
+						<br><p align="center"><img class="fit-width" src="img/Joannaxko.com/2.jpg" alt="jxko2"><br>
+						<p align="center"><img class="fit-width" src="img/Joannaxko.com/6.jpg" alt="jxko3"><br>
+						<p align="center"><img class="fit-width" src="img/Joannaxko.com/5.jpg" alt="jxko4"><br>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End joannaxko.com -->
+
+<!-- Travel -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>travel</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">travel</h3>
+                                    </div>
+                                    <div class="row">
+						<p align="center"><img class="fit-width" src="img/Travel/1.jpg" alt="bled"><br>
+                                                <br>Bled, 2014<br></p>
+
+						<p align="center"><img class="fit-width" src="img/Travel/2.jpg" alt="barmelweid"><br>
+                                                <br>Barmelweid, 2015<br></p>
+
+						<p align="center"><img class="fit-height" src="img/Travel/3.jpg" alt="train"><br>
+                                                <br>Berlin, 2016<br></p>
+
+						<p align="center"><img class="fit-width" src="img/Travel/4.jpg" alt="chicago"><br>
+                                                <br>Chicago, 2016<br></p>
+
+						<p align="center"><img class="fit-width" src="img/Travel/5.jpg" alt="baiedestrepasse"><br>
+                                                <br>Baie des trépassés, 2014<br></p>
+
+						<p align="center"><img class="fit-width" src="img/Travel/6.jpg" alt="berlin"><br>
+                                                <br>Berlin, 2016<br></p>
+
+						<p align="center"><img class="fit-width" src="img/Travel/7.jpg" alt="barmelweid"><br>
+                                                <br>Barmelweid, 2015<br></p>
+
+						<p align="center"><img class="fit-height" src="img/Travel/8.jpg" alt="schiers"><br>
+                                                <br>Schiers, 2016<br></p>
+
+						<p align="center"><img class="fit-width" src="img/Travel/9.jpg" alt="switzerland"><br>
+                                                <br>Switzerland, 2015<br></p>
+
+						<p align="center"><img class="fit-height" src="img/Travel/11.jpg" alt="antelope canyon"><br>
+                                                <br>Antelope Canyon, 2017<br></p>
+
+						<p align="center"><img class="fit-width" src="img/Travel/10.jpg" alt="lenzburg"><br>
+                                                <br>Lenzburg, 2014<br></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Travel -->
+
+			<!-- THINGS -->
+			<h><br>Things<br><br></h>
+			
+
+                        <!-- for Magritte Portrait -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>for Magritte</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5"><br></h3>
+						<div class="video-responsive">
+						<iframe width="1280" height="720" src="https://www.youtube.com/embed/qzEQVLdH2-E?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            					</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End for Magritte -->
+
+<!-- money mind -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <p2>money mind</p>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5"></h3>
+						<p align="center"><img class="img-responsive" src="img/Things/moneymind.jpg" alt="moneymind"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End money mind -->
+
+
+<br>
+                        <!-- ABOUT ME -->
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <h>About</h>
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+
+                                                <p class="blocktext" align="justify">Dominique is a filmmaker, primarily interested in factual content. He is a senior at Northwestern University, where he studies Radio/TV/Film and Political Science. Born and raised in Malaysia to Chinese and Swiss parents, and having studied in Italy and the United States, he is often drawn to issues of migration and cultural identity. He knows some things, but there's also a lot he doesn't know, so he continues to learn from those around him.<br><br>If the camera's not rolling, his skateboard is.</p>
+                                                <p class="blocktext" align="left"><br>domteoh@gmail.com</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End ABOUT ME -->
+
+
+		</div>
+
+                <!-- End Masonry Grid -->       
+
+            </div>
+        </div>
+        <!-- End Work --> 
+
+
+        <!--========== END PAGE LAYOUT ==========-->
+
+<br>
+
+        <!--========== FOOTER ==========-->
+
+                    <div class="footer-fixed-bottom"><p align=center><br><br><br><a href="https://www.instagram.com/domteoh/" target="_blank">Instagram</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://vimeo.com/user23536477" target="_blank">Vimeo</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/user/domgnaredup" target=“_blank">YouTube</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/dominique-teoh-11ba0ab5/" target=“_blank">LinkedIn</a></p></div>
+
+        <!--========== END FOOTER ==========-->
+
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U&amp;callback=initMap" async defer></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/maginific-popup.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/gmap.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
